@@ -1,5 +1,7 @@
 # ansible-study
 
+[![Ansible Lint](https://github.com/sh-cho/ansible-study/actions/workflows/ansible-lint.yml/badge.svg?branch=main&event=push)](https://github.com/sh-cho/ansible-study/actions/workflows/ansible-lint.yml)
+
 ## How to use
 
 ### use with make
