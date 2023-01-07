@@ -16,8 +16,7 @@ down:
 stop:
 	docker-compose stop
 
-clean:
-	$(MAKE) down
+clean: down
 	docker images | grep ansible- | awk '{print $$1}' | xargs docker image rm
 
 exec_controller:
