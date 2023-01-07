@@ -9,7 +9,7 @@ RUN apt-get update && \
     mkdir /var/run/sshd && \
     chmod 0755 /var/run/sshd
 
-COPY inventory.ini .
+COPY . .
 COPY ansible.cfg /etc/ansible/
 
 EXPOSE 22
