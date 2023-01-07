@@ -1,0 +1,28 @@
+services:
+  controller:
+    # image: rockylinux:9
+    build: .
+    ports:
+      - "15510:22"
+    networks:
+      - ssh
+
+  target1:
+    # image: rockylinux:9
+    build: .
+    ports:
+      - "15511:22"
+    networks:
+      - ssh
+
+  target2:
+    # image: rockylinux:9
+    build: .
+    ports:
+      - "15512:22"
+    networks:
+      - ssh
+
+networks:
+  ssh:
+    driver: bridge
