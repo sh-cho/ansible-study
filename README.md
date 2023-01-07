@@ -1,8 +1,8 @@
-## ansible-study
+# ansible-study
 
-### How to use
+## How to use
 
-#### use with make
+### use with make
 
 > **Note**
 >
@@ -21,7 +21,7 @@ make clean
 ```
 down + cleanup images
 
-#### manually
+### manually
 
 ```sh
 docker compose up -d
