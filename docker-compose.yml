@@ -1,23 +1,26 @@
 services:
   controller:
-    # image: rockylinux:9
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.controller
     ports:
       - "15510:22"
     networks:
       - ssh
 
   target1:
-    # image: rockylinux:9
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.target
     ports:
       - "15511:22"
     networks:
       - ssh
 
   target2:
-    # image: rockylinux:9
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.target
     ports:
       - "15512:22"
     networks:

@@ -2,7 +2,25 @@
 
 ### How to use
 
-#### start
+#### use with make
+
+> **NOTE**
+> See [Makefile]
+
+```
+make up
+make start
+make down
+make stop
+```
+docker compose commands
+
+```
+make clean
+```
+down + cleanup images
+
+#### manually
 
 ```sh
 docker compose up -d
@@ -18,8 +36,6 @@ stop (not removing container)
 docker compose start
 ```
 start after stop
-
-#### clean
 
 ```sh
 docker compose down
