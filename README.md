@@ -1,6 +1,7 @@
 # ansible-study
 
 [![Ansible Lint](https://github.com/sh-cho/ansible-study/actions/workflows/ansible-lint.yml/badge.svg?branch=main&event=push)](https://github.com/sh-cho/ansible-study/actions/workflows/ansible-lint.yml)
+[![Yaml Lint](https://github.com/sh-cho/ansible-study/actions/workflows/yaml-lint.yml/badge.svg?branch=main&event=push)](https://github.com/sh-cho/ansible-study/actions/workflows/yaml-lint.yml)
 
 ## How to use
 
