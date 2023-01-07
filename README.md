@@ -21,6 +21,13 @@ make clean
 ```
 down + cleanup images
 
+```
+make exec_controller
+make exec_target1
+make exec_target2
+```
+exec
+
 ### manually
 
 ```sh
