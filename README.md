@@ -4,8 +4,9 @@
 
 #### use with make
 
-> **NOTE**
-> See [Makefile]
+> **Note**
+>
+> See [Makefile](Makefile)
 
 ```
 make up
