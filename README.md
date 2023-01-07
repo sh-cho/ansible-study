@@ -1,4 +1,4 @@
-# ansible-study
+# ansible-study ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=Ansible)
 
 [![Ansible Lint](https://github.com/sh-cho/ansible-study/actions/workflows/ansible-lint.yml/badge.svg?branch=main&event=push)](https://github.com/sh-cho/ansible-study/actions/workflows/ansible-lint.yml)
 [![Yaml Lint](https://github.com/sh-cho/ansible-study/actions/workflows/yaml-lint.yml/badge.svg?branch=main&event=push)](https://github.com/sh-cho/ansible-study/actions/workflows/yaml-lint.yml)
