@@ -3,5 +3,5 @@
   tasks:
     - name: Copy file
       ansible.builtin.copy:
-        src: /tmp/test-file.txt
+        src: "{{ playbook_dir }}/../tmp-files/test-file.txt"
         dest: /etc/foo.conf
