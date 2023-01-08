@@ -5,4 +5,4 @@
     - name: Copy file
       ansible.builtin.copy:
         src: "{{ playbook_dir }}/../tmp-files/test-file.txt"
-        dest: /etc/foo.conf
+        dest: "/home/vince/foo.conf"
