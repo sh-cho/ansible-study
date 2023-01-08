@@ -2,3 +2,5 @@ Makefile
 *.md
 Dockerfile*
 docker-compose.yml
+.ansible-lint
+.yamllint.yml
