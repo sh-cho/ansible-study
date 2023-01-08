@@ -1,0 +1,7 @@
+- name: Copy file to target servers
+  hosts: all
+  tasks:
+    - name: Copy file
+      ansible.builtin.copy:
+        src: /tmp/test-file.txt
+        dest: /etc/foo.conf
